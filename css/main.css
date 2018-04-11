@@ -57,7 +57,11 @@ textarea {
    ========================================================================== */
 
    body {
-        background: #192231;
+        background: #272544;
+        background: -moz-radial-gradient(center, ellipse cover,  #272544 0%, #11131d 100%);
+        background: -webkit-radial-gradient(center, ellipse cover,  #272544 0%,#11131d 100%);
+        background: radial-gradient(ellipse at center,  #272544 0%,#11131d 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#272544', endColorstr='#11131d',GradientType=1 );
    }
 
    h1 {
